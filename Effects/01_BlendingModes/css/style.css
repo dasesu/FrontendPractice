@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.background-images {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+
+  /* background-image: url("../img/image_02.jpg"); */
+  /* background-color: blue; */
+  /* background-blend-mode: darken; */
+  /* some other options are:  */
+  /* multiply */
+  /* screen */
+  /* overlay */
+  /* lighting */
+  /* color-dodge */
+  /* saturation */
+  /* hue */
+  /* color */
+  /* darken */
+  /* luminosity */
+  /* exclusion */
+
+  /* background-image: url("../img/image_02.jpg"); */
+  /* background-color: red; */
+  /* background-blend-mode: exclusion; */
+
+  /* background-image: url("../img/image_02.jpg"), linear-gradient(steelblue, firebrick); */
+  /* background-blend-mode: multiply; */
+
+
+  background-image: url("../img/image_02.jpg"), url("../img/image_01.jpg");
+  background-blend-mode: multiply;
+}
